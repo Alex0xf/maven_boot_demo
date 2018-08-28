@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http：//www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf测试页面</title>
+    <link rel="icon" type="image/x-icon" th:href="@{/favicon.ico}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}"/>
+
+</head>
+<body>
+    <h1 th:text="${adminUser.name}">默认值1</h1>
+    <h1 th:text="${adminUser.id}">默认值2</h1>
+    <h1 th:text="'测试'+${adminUser.password}">默认值3</h1>
+    <h1>测试2[[${adminUser.password}]]</h1>
+
+    <table class="table table-hover">
+       <thead>
+       <tr>
+           <td><h2>name</h2></td>
+           <td><h2>id</h2></td>
+           <td><h2>password</h2></td>
+       </tr>
+       </thead>
+
+       <tbody>
+       <tr th:each="user:${userList}">
+          <td th:text="${user.name}"></td>
+          <td>[[${user.id}]]</td>
+          <td th:text="${user.password}"></td>
+       </tr>
+       </tbody>
+
+    </table>
+
+</body>
+</html>
