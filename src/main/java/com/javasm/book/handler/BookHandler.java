@@ -1,11 +1,20 @@
 package com.javasm.book.handler;
 
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.javasm.book.model.Book;
+import com.javasm.book.service.IBookService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
 
 
 /**
@@ -16,9 +25,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RequestMapping("book")
 @Controller
+@EnableTransactionManagement//事物开启
 public class BookHandler {
     //log4j2
     private static final Logger log = LogManager.getLogger(BookHandler.class);
+
+    @Autowired
+    IBookService bookService;
 
     @RequestMapping("log")
     @ResponseBody
@@ -28,5 +41,16 @@ public class BookHandler {
         log.info("33333");
 
         return "logTest";
+    }
+
+    @RequestMapping("list")
+    public String jumpBookList(Model model){
+        //使用分页插件
+        PageHelper.startPage(1,10);
+        List<Book> list=bookService.selectBookList();
+        model.addAttribute("bookList",list);
+        PageInfo info=new PageInfo(list);
+        model.addAttribute("page",info);
+        return "book/list";
     }
 }
