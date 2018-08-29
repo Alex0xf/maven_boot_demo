@@ -17,13 +17,14 @@ public class LoginIntercept implements HandlerInterceptor {
         //登陆拦截器==spring mvc的拦截器
         StringBuffer requestURL = request.getRequestURL();
         System.out.println(requestURL);
-        Object userInfo = request.getSession().getAttribute("userInfo");
+        /*Object userInfo = request.getSession().getAttribute("userInfo");
             if (userInfo != null) {
                 return true;//放过
             } else {
                 request.getRequestDispatcher("/login").forward(request, response);
                 return false;
-        }
+        }*/
+        return true;
     }
 
 

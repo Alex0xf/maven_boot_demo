@@ -11,7 +11,7 @@ public class SpringIoDemoApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(SpringIoDemoApplication.class, args);
-	}
+    }
 
 
 }

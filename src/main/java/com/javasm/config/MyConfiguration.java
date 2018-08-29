@@ -20,26 +20,25 @@ public class MyConfiguration implements WebMvcConfigurer {
         registry.addViewController("/login").setViewName("login/login_page");
     }
 
- /*   @Override//试图解析器
+ /*   @Override//视图解析器
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         System.out.print("xxxxxx");
         registry.addResourceHandler("/static/**").addResourceLocations("calsspath:/static/");
     }*/
-
 @Override//拦截器==spring mvc的拦截器
     public void addInterceptors(InterceptorRegistry registry) {
         //注册进spring boot中
         registry.addInterceptor(new LoginIntercept())
-                .addPathPatterns("/**")//所有路径都被拦截到 除了
-                .excludePathPatterns("/login")
-                .excludePathPatterns("/login/**")
-                .excludePathPatterns("/index.html")
-                .excludePathPatterns("/css/**")
-                .excludePathPatterns("/js/**")
-                .excludePathPatterns("/layui/**")
-                .excludePathPatterns("/img/**")
-                .excludePathPatterns("/error/**")
-                .excludePathPatterns("/user/**");//放过测试
+            .addPathPatterns("/**")//所有路径都被拦截到 除了
+            .excludePathPatterns("/login")
+            .excludePathPatterns("/login/**")
+            .excludePathPatterns("/index.html")
+            .excludePathPatterns("/css/**")
+            .excludePathPatterns("/js/**")
+            .excludePathPatterns("/layui/**")
+            .excludePathPatterns("/img/**")
+            .excludePathPatterns("/error/**")
+            .excludePathPatterns("/user/**");//放过测试
     }
 
     @Override   //格式转换器
