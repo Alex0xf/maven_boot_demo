@@ -1,7 +1,7 @@
 package com.javasm.book.service;
 
 import com.javasm.book.model.Book;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.cache.annotation.Cacheable;
 
 import java.util.List;
 
@@ -10,8 +10,10 @@ import java.util.List;
  * @creartTime 2018/8/29 - 17:36
  * @function
  */
-public interface IBookService {
 
-    @Transactional//加上事物
+public interface IBookService {
+   //@Cacheable(cacheNames = "book_list",key = "#book.bid",unless = "#result==null",condition = "#book.bid>0")
+
+    @Cacheable(cacheNames = "book_list",unless = "#result==null")
     List<Book> selectBookList();
 }

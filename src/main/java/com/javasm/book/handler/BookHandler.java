@@ -9,11 +9,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -25,7 +25,6 @@ import java.util.List;
 
 @RequestMapping("book")
 @Controller
-@EnableTransactionManagement//事物开启
 public class BookHandler {
     //log4j2
     private static final Logger log = LogManager.getLogger(BookHandler.class);
@@ -51,6 +50,7 @@ public class BookHandler {
         model.addAttribute("bookList",list);
         PageInfo info=new PageInfo(list);
         model.addAttribute("page",info);
+        ArrayList list1 = new ArrayList();
         return "book/list";
     }
 }

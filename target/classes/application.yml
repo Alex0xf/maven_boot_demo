@@ -35,6 +35,26 @@ spring:
       test-on-borrow: false
       #归还连接时是否检测有效性
       test-on-return: false
+  #redis的配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: javasm
+    database: 1
+  #连接超时时间 单位ms
+    timeout:
+     seconds: 3000
+  #可不写 在2.x以下版本 没有jedis这一层 可以替换成lettuce客户端
+    jedis:
+      pool:
+        #连接池最大空闲连接，默认值也是8
+        max-idle: 8
+        #连接池最小空闲连接，默认值也是0
+        min-idle: 0
+        #最大连接数
+        max-active: 8
+        #最大阻塞等待时间(负数表示没限制)
+        max-wait: 10000ms
 mybatis:
   mapper-locations: classpath:com/javasm/*/mapper/*.xml
 #  用来扩展
