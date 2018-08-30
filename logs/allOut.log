@@ -1,0 +1,242 @@
+16:39:20.187 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringIoDemoApplication on DESKTOP-50CVM2A with PID 11144 (D:\IDEA\maven_boot_demo\target\classes started by DELL in D:\IDEA\maven_boot_demo)
+16:39:20.190 DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+16:39:20.191 INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16:39:21.455 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8081"]
+16:39:21.465 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+16:39:21.466 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:39:21.470 INFO  org.apache.juli.logging.DirectJDKLog 180 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\下载\下载\javasm\软件\apache-maven-3.5.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Users\DELL\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+16:39:21.615 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+16:39:21.881 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+16:39:22.179 INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+16:39:23.311 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8081"]
+16:39:23.320 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+16:39:23.334 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started SpringIoDemoApplication in 3.456 seconds (JVM running for 4.682)
+16:39:34.601 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:39:34.728 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional epoll library
+16:39:34.730 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional kqueue library
+16:39:35.073 DEBUG com.javasm.book.service.impl.BookServiceImpl 36 selectBookList - selectBookList被调用
+16:39:35.120 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: SELECT count(0) FROM pn_book 
+16:39:35.139 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 
+16:39:35.153 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+16:39:35.155 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select bid, book_id, book_name, author_name, attribution, ftype_id, stype_id, status, is_vip, description, cover_url, keyword, word_count, last_update_chapter_id, last_update_chapter_name, isRecommand, bookPartner, read_count from pn_book LIMIT ? 
+16:39:35.157 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 10(Integer)
+16:39:35.164 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 10
+16:45:15.192 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringIoDemoApplication on DESKTOP-50CVM2A with PID 5544 (D:\IDEA\maven_boot_demo\target\classes started by DELL in D:\IDEA\maven_boot_demo)
+16:45:15.199 DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+16:45:15.201 INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16:45:17.185 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8081"]
+16:45:17.196 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+16:45:17.196 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.32
+16:45:17.201 INFO  org.apache.juli.logging.DirectJDKLog 180 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\下载\下载\javasm\软件\apache-maven-3.5.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Users\DELL\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+16:45:17.306 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+16:45:17.579 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+16:45:17.918 INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+16:45:19.460 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8081"]
+16:45:19.472 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+16:45:19.491 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started SpringIoDemoApplication in 4.711 seconds (JVM running for 5.946)
+16:45:31.821 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:45:32.000 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional epoll library
+16:45:32.003 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional kqueue library
+16:45:32.386 DEBUG com.javasm.book.service.impl.BookServiceImpl 36 selectBookList - selectBookList被调用
+16:45:32.440 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: SELECT count(0) FROM pn_book 
+16:45:32.460 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 
+16:45:32.475 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+16:45:32.479 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: select bid, book_id, book_name, author_name, attribution, ftype_id, stype_id, status, is_vip, description, cover_url, keyword, word_count, last_update_chapter_id, last_update_chapter_name, isRecommand, bookPartner, read_count from pn_book LIMIT ? 
+16:45:32.481 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 10(Integer)
+16:45:32.488 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 10
+17:00:01.341 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringIoDemoApplication on DESKTOP-50CVM2A with PID 17516 (D:\IDEA\maven_boot_demo\target\classes started by DELL in D:\IDEA\maven_boot_demo)
+17:00:01.347 DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17:00:01.347 INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17:00:03.464 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8081"]
+17:00:03.476 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+17:00:03.477 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:00:03.482 INFO  org.apache.juli.logging.DirectJDKLog 180 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\下载\下载\javasm\软件\apache-maven-3.5.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Users\DELL\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+17:00:03.618 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+17:00:03.929 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+17:00:04.287 INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+17:00:05.777 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8081"]
+17:00:05.789 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+17:00:05.810 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started SpringIoDemoApplication in 4.95 seconds (JVM running for 6.321)
+17:23:59.065 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringIoDemoApplication on DESKTOP-50CVM2A with PID 17104 (D:\IDEA\maven_boot_demo\target\classes started by DELL in D:\IDEA\maven_boot_demo)
+17:23:59.074 DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17:23:59.075 INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17:24:02.071 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8081"]
+17:24:02.082 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+17:24:02.083 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.32
+17:24:02.089 INFO  org.apache.juli.logging.DirectJDKLog 180 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\下载\下载\javasm\软件\apache-maven-3.5.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Users\DELL\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+17:24:02.377 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+17:24:02.623 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+17:24:03.045 INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+17:24:04.950 INFO  org.quartz.impl.StdSchedulerFactory 1208 instantiate - Using default implementation for ThreadExecutor
+17:24:04.967 INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:24:04.968 INFO  org.quartz.core.QuartzScheduler 229 <init> - Quartz Scheduler v.2.3.0 created.
+17:24:04.969 INFO  org.quartz.simpl.RAMJobStore 155 initialize - RAMJobStore initialized.
+17:24:04.969 INFO  org.quartz.core.QuartzScheduler 294 initialize - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+17:24:04.970 INFO  org.quartz.impl.StdSchedulerFactory 1362 instantiate - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+17:24:04.970 INFO  org.quartz.impl.StdSchedulerFactory 1366 instantiate - Quartz scheduler version: 2.3.0
+17:24:04.970 INFO  org.quartz.core.QuartzScheduler 2287 setJobFactory - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@46d1b59
+17:24:05.122 INFO  org.quartz.core.QuartzScheduler 547 start - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+17:24:05.145 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8081"]
+17:24:05.159 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+17:24:05.186 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started SpringIoDemoApplication in 6.727 seconds (JVM running for 8.68)
+18:58:05.004 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringIoDemoApplication on DESKTOP-50CVM2A with PID 14324 (D:\IDEA\maven_boot_demo\target\classes started by DELL in D:\IDEA\maven_boot_demo)
+18:58:05.011 DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+18:58:05.011 INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+18:58:06.940 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8081"]
+18:58:06.940 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+18:58:06.940 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.32
+18:58:06.956 INFO  org.apache.juli.logging.DirectJDKLog 180 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\下载\下载\javasm\软件\apache-maven-3.5.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Users\DELL\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+18:58:07.159 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+18:58:07.362 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+18:58:07.740 INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+18:58:09.171 INFO  org.quartz.impl.StdSchedulerFactory 1208 instantiate - Using default implementation for ThreadExecutor
+18:58:09.187 INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+18:58:09.187 INFO  org.quartz.core.QuartzScheduler 229 <init> - Quartz Scheduler v.2.3.0 created.
+18:58:09.187 INFO  org.quartz.simpl.RAMJobStore 155 initialize - RAMJobStore initialized.
+18:58:09.187 INFO  org.quartz.core.QuartzScheduler 294 initialize - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+18:58:09.187 INFO  org.quartz.impl.StdSchedulerFactory 1362 instantiate - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+18:58:09.187 INFO  org.quartz.impl.StdSchedulerFactory 1366 instantiate - Quartz scheduler version: 2.3.0
+18:58:09.187 INFO  org.quartz.core.QuartzScheduler 2287 setJobFactory - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@6f8667bb
+18:58:09.312 INFO  org.quartz.core.QuartzScheduler 547 start - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+18:58:09.312 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8081"]
+18:58:09.327 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+18:58:09.343 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started SpringIoDemoApplication in 4.707 seconds (JVM running for 6.056)
+18:58:18.127 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:58:18.545 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional epoll library
+18:58:18.548 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional kqueue library
+18:58:51.778 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringIoDemoApplication on DESKTOP-50CVM2A with PID 3100 (D:\IDEA\maven_boot_demo\target\classes started by DELL in D:\IDEA\maven_boot_demo)
+18:58:51.794 DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+18:58:51.794 INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+18:58:53.722 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8081"]
+18:58:53.737 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+18:58:53.737 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.32
+18:58:53.753 INFO  org.apache.juli.logging.DirectJDKLog 180 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\下载\下载\javasm\软件\apache-maven-3.5.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Users\DELL\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+18:58:53.947 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+18:58:54.166 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+18:58:54.616 INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+18:58:56.166 INFO  org.quartz.impl.StdSchedulerFactory 1208 instantiate - Using default implementation for ThreadExecutor
+18:58:56.183 INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+18:58:56.183 INFO  org.quartz.core.QuartzScheduler 229 <init> - Quartz Scheduler v.2.3.0 created.
+18:58:56.184 INFO  org.quartz.simpl.RAMJobStore 155 initialize - RAMJobStore initialized.
+18:58:56.187 INFO  org.quartz.core.QuartzScheduler 294 initialize - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+18:58:56.188 INFO  org.quartz.impl.StdSchedulerFactory 1362 instantiate - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+18:58:56.188 INFO  org.quartz.impl.StdSchedulerFactory 1366 instantiate - Quartz scheduler version: 2.3.0
+18:58:56.188 INFO  org.quartz.core.QuartzScheduler 2287 setJobFactory - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@6f07d414
+18:58:56.342 INFO  org.quartz.core.QuartzScheduler 547 start - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+18:58:56.356 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8081"]
+18:58:56.367 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+18:58:56.397 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started SpringIoDemoApplication in 5.005 seconds (JVM running for 6.307)
+18:58:56.645 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:58:56.810 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional epoll library
+18:58:56.812 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional kqueue library
+18:59:11.564 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringIoDemoApplication on DESKTOP-50CVM2A with PID 18776 (D:\IDEA\maven_boot_demo\target\classes started by DELL in D:\IDEA\maven_boot_demo)
+18:59:11.564 DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+18:59:11.564 INFO  org.springframework.boot.SpringApplication 662 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+18:59:13.625 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8081"]
+18:59:13.636 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+18:59:13.637 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.32
+18:59:13.655 INFO  org.apache.juli.logging.DirectJDKLog 180 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\下载\下载\javasm\软件\apache-maven-3.5.2\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Users\DELL\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+18:59:13.861 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+18:59:14.093 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+18:59:14.479 INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+18:59:16.514 INFO  org.quartz.impl.StdSchedulerFactory 1208 instantiate - Using default implementation for ThreadExecutor
+18:59:16.530 INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+18:59:16.530 INFO  org.quartz.core.QuartzScheduler 229 <init> - Quartz Scheduler v.2.3.0 created.
+18:59:16.530 INFO  org.quartz.simpl.RAMJobStore 155 initialize - RAMJobStore initialized.
+18:59:16.530 INFO  org.quartz.core.QuartzScheduler 294 initialize - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+18:59:16.530 INFO  org.quartz.impl.StdSchedulerFactory 1362 instantiate - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+18:59:16.530 INFO  org.quartz.impl.StdSchedulerFactory 1366 instantiate - Quartz scheduler version: 2.3.0
+18:59:16.530 INFO  org.quartz.core.QuartzScheduler 2287 setJobFactory - JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@ca546a1
+18:59:16.648 INFO  org.quartz.core.QuartzScheduler 547 start - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+18:59:16.660 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8081"]
+18:59:16.674 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+18:59:16.700 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started SpringIoDemoApplication in 5.51 seconds (JVM running for 6.882)
+18:59:19.026 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:59:19.197 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional epoll library
+18:59:19.199 INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional kqueue library
+21:13:09.397 INFO  io.netty.util.internal.logging.Slf4JLogger 116 info - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_102]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_102]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_102]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_102]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_102]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-buffer-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108) ~[netty-buffer-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_102]
+21:13:09.625 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was /127.0.0.1:6379
+21:13:10.646 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:13:15.104 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:13:16.111 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:13:20.297 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:13:21.307 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:13:25.503 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:13:26.507 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:13:30.711 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:13:31.724 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:13:40.007 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:13:41.023 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:13:57.500 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:13:58.524 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:14:28.602 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:14:29.605 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:14:59.702 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:15:00.705 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:15:30.804 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:15:31.807 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:16:01.903 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:16:02.906 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:16:33.003 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:16:34.005 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:17:04.103 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:17:05.112 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:17:35.203 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:17:36.209 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:18:06.303 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:18:07.305 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:18:37.403 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:18:38.407 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:19:08.502 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:19:09.506 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:19:39.608 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:19:40.614 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:20:10.704 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:20:11.707 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+21:20:41.802 INFO  io.netty.util.internal.logging.Slf4JLogger 106 info - Reconnecting, last destination was 127.0.0.1:6379
+21:20:42.813 WARN  io.netty.util.internal.logging.Slf4JLogger 136 warn - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379

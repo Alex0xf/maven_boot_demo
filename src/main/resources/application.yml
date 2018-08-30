@@ -55,8 +55,11 @@ spring:
         max-active: 8
         #最大阻塞等待时间(负数表示没限制)
         max-wait: 10000ms
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/jsp
+#      suffix: .jsp
 mybatis:
   mapper-locations: classpath:com/javasm/*/mapper/*.xml
 #  用来扩展
 #  config-location: classpath:mybatis-config.xml
-

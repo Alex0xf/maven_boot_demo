@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 //@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 @SpringBootApplication
 @MapperScan("com.javasm.*.dao")//所有mapper注入到spring容器中
-@EnableTransactionManagement//开启事务
+@EnableTransactionManagement()//开启事务
 @EnableCaching//开启缓存注解
 @EnableScheduling//开启定时任务调度
 public class SpringIoDemoApplication {

@@ -13,7 +13,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -50,7 +49,6 @@ public class BookHandler {
         model.addAttribute("bookList",list);
         PageInfo info=new PageInfo(list);
         model.addAttribute("page",info);
-        ArrayList list1 = new ArrayList();
         return "book/list";
     }
 }
