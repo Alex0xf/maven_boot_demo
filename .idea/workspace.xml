@@ -2,50 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fdc571a-5d08-4a92-b32d-7c085752697c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/IChannelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/AppstoreChannelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/BaiduChannelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/MyappChannelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/XiaomiChannerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/IPayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/AndriodPayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/IOSPayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/WechatPayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/AdminUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/DealerUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AndriodFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/IOSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/WechatFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/AdminUserServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/DealerUserServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/UserServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/UserServiceMethodFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/simple/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/simple/UserServiceSimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/PublicAccounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/WeChatUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/dynamicproxy/Baidu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/dynamicproxy/DynamicProxyCglib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/dynamicproxy/DynamicProxyJDK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/HanMeiMei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/IBM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/ICodeMonkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/LiLei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/WaiBao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/FatherToSon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/GameModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/GameVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/allOut.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/allOut.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/err.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/err.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/MyappChannelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/MyappChannelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/XiaomiChannerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/XiaomiChannerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/IPayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/IPayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/AndriodPayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/AndriodPayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/IOSPayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/IOSPayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/AdminUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/AdminUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/DealerUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/DealerUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AndriodFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AndriodFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/WechatFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/WechatFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/DealerUserServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/DealerUserServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/UserServiceMethodFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/UserServiceMethodFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/simple/UserServiceSimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/simple/UserServiceSimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/WeChatUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/WeChatUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/ICodeMonkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/ICodeMonkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/LiLei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/LiLei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasm/user/action/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasm/user/action/UserHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/BootdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/generic/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericServiceImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/generic/IGenericService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/FatherToSon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/GameModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/GameVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javasm/reflection/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javasm/user/action/UserHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javasm/user/action/UserHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javasm/user/action/UserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javasm/user/action/UserHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,63 +86,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/user/action/UserHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeChatUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/WeChatUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicAccounts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/PublicAccounts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            <state relative-caret-position="393">
+              <caret line="104" column="32" lean-forward="true" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -185,10 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/javasm/generic/service/impl/GenericServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/javasom/generic/service/impl/GenericServiceImpl2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/javasm/generic/service/impl/GenericServiceImpl2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BootdemoApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BootdemoApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javasm/generic/IGenericService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericServiceImpl.java" />
@@ -223,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/DealerUserServiceMethodFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/DealerUserServiceFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AndriodFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/IOSFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/WechatFactory.java" />
@@ -232,15 +170,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/PublicAccounts.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/PublicAccoutsImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaAccoutsImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/WeChatUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Observer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javasm/user/design/proxy/staticproxy/IBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javasm/user/action/UserHandler.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -271,22 +220,6 @@
           <item name="maven_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="maven_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="maven_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="maven_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-web:2.0.4.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -295,10 +228,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="589" />
-    <option name="y" value="50" />
-    <option name="width" value="1153" />
-    <option name="height" value="1034" />
+    <option name="x" value="-193" />
+    <option name="y" value="46" />
+    <option name="width" value="1536" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -308,8 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,35 +282,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javasm" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_boot_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_boot_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javasm" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_boot_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_boot_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javasm" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_boot_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_boot_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javasm" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -395,20 +298,15 @@
               <item name="maven_boot_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven_boot_demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_boot_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_boot_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,25 +323,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43991178" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA\maven_boot_demo\src\main\java\com\javasm\design\common\pay" />
-      <recent name="D:\IDEA\maven_boot_demo\src\main\java\com\javasm\design\common\channel" />
-      <recent name="D:\IDEA\maven_boot_demo\src\test\java" />
-      <recent name="D:\IDEA\maven_boot_demo\src\main\resources" />
-      <recent name="D:\IDEA\maven_boot_demo\src\main\resources\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IDEA\maven_boot_demo\src\main\resources\static" />
       <recent name="D:\IDEA\maven_boot_demo\src\main\resources\static\img" />
       <recent name="D:\IDEA\maven_boot_demo\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\maven_boot_demo\src\main\resources" />
+      <recent name="D:\IDEA\maven_boot_demo\src\main\java\com\javasm\user" />
+      <recent name="D:\IDEA\maven_boot_demo\src\main\java\com\javasm\design\common\pay" />
+      <recent name="D:\IDEA\maven_boot_demo\src\main\java\com\javasm\design\common\channel" />
+      <recent name="D:\IDEA\maven_boot_demo\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,40 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="Baidu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javasm.design.proxy.dynamicproxy.Baidu" />
-      <module name="maven_boot_demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javasm.design.proxy.dynamicproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javasm.design.factory.abst.Demo" />
-      <module name="maven_boot_demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javasm.design.factory.abst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javasm.design.observer.Demo" />
-      <module name="maven_boot_demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javasm.design.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringIoDemoApplication">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javasm.design.factory.simple.Demo" />
       <module name="maven_boot_demo" />
@@ -499,28 +364,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javasm.design.factory.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="IBM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javasm.design.proxy.staticproxy.IBM" />
-      <module name="maven_boot_demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javasm.design.proxy.staticproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javasm.reflection.Test" />
-      <module name="maven_boot_demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javasm.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -569,6 +412,16 @@
         </option>
       </MavenSettings>
     </configuration>
+    <configuration name="SpringIoDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="maven_boot_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javasm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javasm.SpringIoDemoApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -593,19 +446,12 @@
     </configuration>
     <list>
       <item itemvalue="Maven.geneatorMapper" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.IBM" />
-      <item itemvalue="Application.Baidu" />
-      <item itemvalue="Application.Demo (2)" />
+      <item itemvalue="Spring Boot.SpringIoDemoApplication" />
       <item itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Demo (2)" />
-        <item itemvalue="Application.Demo (2)" />
-        <item itemvalue="Application.Demo (2)" />
-        <item itemvalue="Application.Baidu" />
       </list>
     </recent_temporary>
   </component>
@@ -632,7 +478,15 @@
       <workItem from="1535594599125" duration="12891000" />
       <workItem from="1535622887032" duration="6353000" />
       <workItem from="1535681057640" duration="19020000" />
-      <workItem from="1535963791245" duration="15727000" />
+      <workItem from="1535963791245" duration="21128000" />
+      <workItem from="1536073532529" duration="3069000" />
+      <workItem from="1536763066550" duration="2360000" />
+      <workItem from="1536766988704" duration="538000" />
+      <workItem from="1536767560522" duration="2653000" />
+      <workItem from="1536770369863" duration="330000" />
+      <workItem from="1536771169216" duration="1312000" />
+      <workItem from="1536772990765" duration="2568000" />
+      <workItem from="1536837205001" duration="2975000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1535468925136</created>
@@ -680,7 +534,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134615000" />
+    <option name="totallyTimeSpent" value="155821000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -692,36 +546,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" sideWeight="0.4989339" weight="0.24636059" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.30277187" side_tool="true" visible="true" weight="0.14333707" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.30277187" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" sideWeight="0.49840087" weight="0.2454448" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.3884026" side_tool="true" weight="0.32683983" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.28861788" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="3" weight="0.20919067" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20895523" />
       <window_info id="Structure" order="6" sideWeight="0.50071734" side_tool="true" weight="0.35369775" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.12153518" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.6203501" weight="0.33710408" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" sideWeight="0.61159736" visible="true" weight="0.31493506" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.2530795" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49307036" weight="0.2844345" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.62526655" weight="0.27771556" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.69722813" visible="true" weight="0.14333707" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.62473345" weight="0.2636656" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.6923701" weight="0.39164785" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" x="480" y="364" width="959" height="312" id="Terminal" order="4" sideWeight="0.49947917" type="WINDOWED" weight="0.32946146" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49492386" visible="true" weight="0.20522387" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49492386" weight="0.4584245" />
       <window_info anchor="bottom" id="Problems" order="16" sideWeight="0.4989339" weight="0.32922733" />
-      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.3299458" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49946696" weight="0.18589026" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="4" sideWeight="0.50507617" side_tool="true" weight="0.38183808" />
       <window_info anchor="right" id="JSF" order="9" />
@@ -730,9 +583,49 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32910052" />
+      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49946696" weight="0.18589026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" sideWeight="0.49840087" weight="0.2454448" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32910052" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.6923701" weight="0.39164785" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.12153518" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.50507617" side_tool="true" weight="0.38183808" />
+      <window_info anchor="bottom" x="480" y="364" width="959" height="312" id="Terminal" order="4" sideWeight="0.49947917" type="WINDOWED" weight="0.32946146" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.3884026" side_tool="true" weight="0.32683983" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49307036" weight="0.2844345" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.2530795" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="16" sideWeight="0.4989339" weight="0.32922733" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.62473345" weight="0.2636656" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.28861788" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49946696" weight="0.18589026" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49492386" visible="true" weight="0.4584245" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20895523" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Structure" order="6" sideWeight="0.50071734" side_tool="true" weight="0.35369775" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" sideWeight="0.61159736" visible="true" weight="0.31493506" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.3299458" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -795,442 +688,146 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/handler/GenericHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/BaiduChannelServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/IOSPayServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/IPayService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/WechatFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/WechatPayServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AbstractFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AndriodFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/IOSFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/UserServiceMethodFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/UserServiceFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/DealerUserServiceFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/AdminUserServiceFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/GameModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/FatherToSon.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/GameVO.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericServiceImpl2.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/IGenericService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Observer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/WeChatUser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/PublicAccounts.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/book/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1520">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/user/model/UserModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaCode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/book/handler/BookHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="256">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/book/service/IBookService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/design/common/pay/IPayService.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/design/common/channel/IChannelService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/BootdemoApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/design/factory/abst/AbstractFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="188">
+          <caret line="825" selection-start-line="825" selection-end-line="825" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/beans/PropertyDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/book/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/HanMeiMei.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/IBM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/LiLei.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/WaiBao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/ICodeMonkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/dynamicproxy/Baidu.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/staticproxy/IBM.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application2.yml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="520" selection-start-line="520" selection-end-line="520" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar!/org/yaml/snakeyaml/Yaml.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/SpringIoDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/dynamicproxy/DynamicProxyJDK.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/proxy/dynamicproxy/DynamicProxyCglib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/UserServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/AdminUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/DealerUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/user/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/simple/UserServiceSimpleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/simple/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/channel/impl/BaiduChannelServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/IOSPayServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/IPayService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/WechatFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/common/pay/impl/WechatPayServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/AndriodFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/IOSFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/abst/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/UserServiceMethodFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/UserServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/DealerUserServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/AdminUserServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/factory/method/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/GameModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/FatherToSon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/GameVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/reflection/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericServiceImpl2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/GenericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javasm/generic/IGenericService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="-324">
+          <caret line="453" column="27" selection-start-line="453" selection-start-column="27" selection-end-line="453" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/user/action/UserHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/JavaCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/WeChatUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/PublicAccounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javasm/design/observer/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="393">
+          <caret line="104" column="32" lean-forward="true" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1286,11 +883,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|maven_boot_demo</last-edited>
+          <last-edited>maven_boot_demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.43991178" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
